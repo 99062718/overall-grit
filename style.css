@@ -1,0 +1,40 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.coreDiv{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.topDiv{
+	width: auto;
+	height: 115px;
+	background-image: url(img/header_bg.png);
+	background-repeat: repeat-x;
+}
+
+.middleDiv{
+	width: auto;
+	height: 425px;
+	background-image: url(img/banner_bg.png);
+	background-repeat: repeat-x;
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+p{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+h2{
+	font-size: 20px;
+	line-height: 22px;
+}
