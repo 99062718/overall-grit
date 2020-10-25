@@ -55,17 +55,17 @@ body{
 	color: black;
 }
 
-.fadeSliderDiv{
+.sliderDiv1{
 	float: left;
-	margin-right: 30px;
 }
 
-.nivoSliderDiv{
+.sliderDiv2{
 	float: left;
 	margin-right: 30px;
+	margin-left: 30px;
 }
 
-.bonus3dSliderDiv{
+.sliderDiv3{
 	float: left;
 }
 
@@ -102,11 +102,6 @@ a {
   display: block;
   text-decoration: none;
   color: black;
-}
-
-.bottomDiv>img{
-	float: left;
-	margin-right: 25px;
 }
 
 .footerDiv>p{
