@@ -27,7 +27,7 @@ body{
 	grid-column: 2/5;
 	grid-row: 1/2;
 	color: black;
-	padding-right: 40px;
+	padding-left: 70px;
 }
 
 .middleDiv{
@@ -48,15 +48,31 @@ body{
 }
 
 .bottomDiv{
+	grid-column: 1/5;
 	grid-row: 3/4;
 	padding: 30px;
-	padding-right: 60px;
 	padding-left: 60px;
+	color: black;
+}
+
+.fadeSliderDiv{
+	float: left;
+	margin-right: 30px;
+}
+
+.nivoSliderDiv{
+	float: left;
+	margin-right: 30px;
+}
+
+.bonus3dSliderDiv{
+	float: left;
 }
 
 .footerDiv{
 	background-image: url(img/footer_bg.png);
 	background-repeat: repeat-x;
+	grid-column: 1/5;
 	grid-row: 4/5;
 }
 
@@ -86,4 +102,13 @@ a {
   display: block;
   text-decoration: none;
   color: black;
+}
+
+.bottomDiv>img{
+	float: left;
+	margin-right: 25px;
+}
+
+.footerDiv>p{
+	text-align: center;
 }
